@@ -1,0 +1,73 @@
+*{
+    box-sizing: border box;
+}
+
+/*Cabecera*/
+.imagenCabecera{
+    width: 100%;
+    height: 200px;
+}
+
+/*Nav - Menú*/
+.cabecera_enlaces{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    column-gap: 30px;
+    background-color: rgb(68, 68, 193);
+    }
+
+.menu{
+    width: auto;
+    height: 25px;
+    margin-left: 10px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    }
+
+nav div div a{
+        text-decoration: none;
+        color: aquamarine;
+    }
+
+a:hoover {
+        background-color: #ddd;
+        color: black;
+    }
+    
+
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    font-size: 40px;
+    color: blue;
+    margin-left: 20px;
+}
+
+.foto1{
+    float: left;
+    margin-left: 20px;
+    padding-right: 20px;
+    height: 600px;
+    width: 612px;
+}
+p{
+    font-size: 30px;
+    margin-left: 20px;
+    color: blue;
+}
+
+footer{
+    background-color: blue;
+    color: white;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
