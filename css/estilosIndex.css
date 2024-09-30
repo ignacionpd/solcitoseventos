@@ -37,7 +37,7 @@ nav div div a{
         color: aquamarine;
     }
 
-a:hoover {
+a::hoover {
         background-color: #ddd;
         color: black;
     }
