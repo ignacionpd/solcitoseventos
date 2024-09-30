@@ -37,7 +37,7 @@ nav div div a{
         color: aquamarine;
     }
 
-a::hoover {
+a::hoover{
         background-color: #ddd;
         color: black;
     }
@@ -45,8 +45,7 @@ a::hoover {
 
 
 body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+    font-family: "Paytone One", sans-serif;}
 h1{
     font-size: 40px;
     color: blue;
