@@ -1,0 +1,113 @@
+*{
+    box-sizing: border box;
+}
+
+/*Cabecera*/
+.imagenCabecera{
+    width: 100%;
+    height: 200px;
+}
+
+/*Estilo del "div" contenedor de todos los enlaces*/
+.cabecera_enlaces{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    column-gap: 30px;
+    background-color: rgb(68, 68, 193);
+    }
+
+    @font-face {
+        font-family: "Paytone One";
+        src: url(./Paytone_One/PaytoneOne-Regular.ttf);
+    }
+
+/*Estilo del "div" del enlace del menú*/
+.menu{
+        width: auto;
+        margin-left: 10px;
+        font-size: 25px;
+        font-family: "Paytone One", sans-serif;
+        font-weight: 400;
+        font-style: normal; 
+        }
+
+/*Estilo de los enlaces del menú*/
+.enlaces{
+    text-decoration: none;
+    color: aquamarine;
+}
+
+/*Estilo del enlace actual del menú*/
+.enlace_actual{
+    background-color: aquamarine;
+    color: rgb(68, 68, 193);
+    width: auto;
+    margin-left: 10px;
+    font-size: 25px;
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none; 
+}
+
+h1{
+    font-size: 40px;
+    color: blue;
+    margin-left: 20px;
+    font-family: "Paytone One", sans-serif;
+}
+
+.contenido{
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(./Montserrat/Montserrat-VariableFont_wght.ttf);
+} 
+
+.texto_contacto{
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 80px;
+    color: blue;
+    font-family: "Montserrat";
+}
+
+img{
+    height: 700px;
+    width: auto;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    font-family: "Paytone One";
+    font-size: 40px;
+    margin-top: 30px;
+    width: 100%;
+    height: 100px;
+}
+
+.redes img {
+    width: 50px;
+    height: 50px; 
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.texto_footer{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-family: "Paytone One";
+    flex-grow: 1;
+}
