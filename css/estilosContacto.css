@@ -1,7 +1,26 @@
 *{
+    margin: 0px;
+    padding: 0px;
     box-sizing: border box;
 }
 
+html, body{
+    width: 1900px;
+}
+
+/***HEADER***/
+
+.div_cabecera{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 5px;
+}
+
+.img_cabecera{
+    width: 100%;
+}
+
+/**** NAV *****/
 /*Estilo del "div" contenedor de todos los enlaces*/
 .cabecera_enlaces{
     width: 100%;
@@ -10,6 +29,7 @@
     justify-content:flex-start;
     align-items: center;
     column-gap: 30px;
+    padding-left: 10px;
     background-color: rgb(68, 68, 193);
     }
 
@@ -47,10 +67,11 @@
     text-decoration: none; 
 }
 
+
 h1{
     font-size: 40px;
     color: blue;
-    margin-left: 20px;
+    margin: 20px;
     font-family: "Paytone One", sans-serif;
 }
 
@@ -64,6 +85,10 @@ h1{
     font-family: "Montserrat";
     src: url(./Montserrat/Montserrat-VariableFont_wght.ttf);
 } 
+
+ul{
+    list-style-position: inside;
+}
 
 .texto_contacto{
     font-size: 25px;

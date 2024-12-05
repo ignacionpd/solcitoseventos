@@ -1,8 +1,28 @@
 *{
-    box-sizing: border box;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
+html, body{
+    width: 1900px;
+}
+
+/***HEADER***/
+
+.div_cabecera{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 5px;
+}
+
+.img_cabecera{
+    width: 100%;
+}
+
+/**** NAV *****/
 /*Estilo del "div" contenedor de todos los enlaces*/
+
 .cabecera_enlaces{
     width: 100%;
     height: 50px;
@@ -10,6 +30,7 @@
     justify-content:flex-start;
     align-items: center;
     column-gap: 30px;
+    padding-left: 10px;
     background-color: rgb(68, 68, 193);
     }
 
@@ -46,30 +67,38 @@
     text-decoration: none; 
 }
 
+
+/***MAIN***/
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+    margin: 20px;
+}
+
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.div_galeria{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
 }
 
 h1{
     font-size: 40px;
     color: blue;
-    margin-left: 20px;
+    padding-bottom: 20px;
     font-family: "Paytone One", sans-serif;
 }
-
-.grid{
-    display: grid;
-    padding-left: 20px;    
-    grid-template-columns: 600px 600px 600px;
-    grid-template-rows: 600px 600px 600px;
-    grid-gap: 30px;
-}
-
 .img{
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
+    border-radius: 20px;
+    padding-bottom: 30px;
     object-fit: cover;
+
 }
 
 footer{

@@ -1,15 +1,36 @@
 *{
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
-/*Estilo del "div" contenedor de todos los enlaces*/
-.cabecera_enlaces{
+html, body{
+    width: 1900px;
+}
+
+/***HEADER***/
+
+.div_cabecera{
     width: 100%;
+    height: 200px;
+    margin-bottom: 5px;
+}
+
+.img_cabecera{
+    width: 100%;
+}
+
+/**** NAV *****/
+/*Estilo del "div" contenedor de todos los enlaces*/
+
+.cabecera_enlaces{
+    width: 100%;        
     height: 50px;
     display: flex;
     justify-content:flex-start;
     align-items: center;
     column-gap: 30px;
+    padding-left: 10px;
     background-color: rgb(68, 68, 193);
     }
 
@@ -47,11 +68,22 @@
     text-decoration: none; 
 }
 
+/***MAIN***/
+/*Estilo del div del 1º section*/
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+    margin: 20px;
+}
+
 h1{
     font-size: 40px;
     color: blue;
-    margin-left: 20px;
     font-family: "Paytone One", sans-serif;
+    padding-bottom: 20px;
 }
 
 @font-face {
@@ -61,7 +93,6 @@ h1{
 
 .foto1{
     float: left;
-    margin-left: 20px;
     padding-right: 20px;
     height: 600px;
     width: 612px;
@@ -70,7 +101,6 @@ h1{
 /*Texto de la presentación*/
 .texto_parrafo{
     font-size: 30px;
-    margin-left: 20px;
     color: blue;
     font-family: "Montserrat";
 }
@@ -78,8 +108,8 @@ h1{
 h2{
     font-size: 25px;
     color:rgb(25, 132, 232);
-    margin-left: 20px;
     font-family: "Paytone One", sans-serif;
+    padding-bottom: 10px;
 }
 
 footer{
