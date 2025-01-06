@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solcitos Eventos - Presupuesto</title>
+    <link rel="stylesheet" href="./../css/estilos.css">
+    <link rel="icon" href="./../images/solcitos_png.png" type="image/png" >
+</head>
+<body>
+    <header>
+        <!--Imágen cabecera-->
+        <div class="div_cabecera">
+             <img class="img_cabecera" src="./../images/solcito_banner.jpg" alt="solcitos eventos" width="1883" height="200">
+        </div>
+
+        <!--Menú enlaces-->
+        <nav>
+            <div class="cabecera_enlaces">
+                <div class="menu">
+                   <a class="enlaces" href="./../index.html">Inicio</a>
+                </div>
+                <div class="menu">
+                    <a class="enlaces" href="./portfolio.html">Galería</a>
+                </div>
+                <div class="menu">
+                    <a class="enlace_actual" href="./presupuesto.html">Presupuesto</a>
+                </div>
+                <div class="menu">
+                    <a class="enlaces" href="./contacto.html">Contacto</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>    
+        <section>
+            <h2>Presupuesto</h2>
+
+            <form>
+                <div class="grid"> <!--Grid para el formulario-->
+                    <div class="lineas_div">
+                        <span class="dato">Nombre:</span>
+                        <span class="dato">Teléfono:</span> 
+                        <span class="dato">E-mail:</span> 
+                    </div>
+                    <div>
+                        <input class="input_campo" type="text" name="nombre" id="name" required><br><br>
+                        <input class="input_campo" type="tel" name="telefono" required><br><br>
+                        <input class="input_campo" type="email" name="email" value="" required><br><br>
+                    </div>
+                    <textarea class="itemA"  name="texto" placeholder="Solicite más información." required></textarea>               
+                </div>
+                <div class="politicas">
+                    <input class="input_check" type="checkbox" name="politicas" value="" required>
+                    Acepto las políticas de privacidad.
+                </div>
+                <input class="button" type="submit" name="enviar" value="Enviar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="redes">
+            <a href="https://www.instagram.com" target="_blank"><img src="./../images/ig_logo_png.png" alt="Instagram" width="70" height="56"></a>
+            <a href="https://www.Facebook.com" target="_blank"><img src="./../images/fb_logo.png" alt="Facebook" width="70" height="56"></a>    
+        </div>
+        <div class="texto_footer">
+                <p>SOLCITOS EVENTOS - ALICANTE</p>
+        </div>
+    </footer>
+</body>
+</html>
