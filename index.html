@@ -1,72 +1,145 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solcitos Eventos</title>
     <link rel="stylesheet" href="./css/estilos.css">
-    <link rel="icon" href="./images/solcitos_png.png" type="image/png">
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 </head>
+
 <body>
     <header>
-        <!--Imágen cabecera-->
-        <div class="div_cabecera"><img class="img_cabecera" src="./images/solcito_banner.jpg" alt="solcitos eventos" width="1890" height="200"></div>
+        <div class="div_cabecera">
+            <div class="logo_cabecera">
+                <img class="img_cabecera" src="./images/solcitos.jpg" alt="solcitos eventos" width="625" height="650">
+                <h1>solcitos eventos</h1>
+            </div>
+
+            <div class="cabecera_contacto">
+                <ul>
+                    <li>
+                        <span class="enlace-texto">664452641</span>
+                        <a class="enlace_header" href="https://wa.me/34664452641" target="_blank">
+                            <img class="iconos" src="./images/iconos/whatsapp.svg" alt="telefono Solcitos Eventos">
+                        </a>
+                    </li>
+
+                    <li>
+                        <span class="enlace-texto">solcitoseventos@gmail.com</span>
+                        <a class="enlace_header" href="mailto:solcitoseventos@gmail.com" target="_blank">
+                            <img class="iconos" src="./images/iconos/email.svg" alt="email Solcitos Eventos">
+                        </a>
+                    </li>
+
+                    <li>
+                        <span class="enlace-texto">solcitos eventos</span>
+                        <a class="enlace_header" href="https://www.instagram.com/solcitos.eventos" target="_blank">
+                            <img class="iconos" src="./images/iconos/instagram.svg" alt="Instagram Solcitos Eventos">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
         <!--Menú enlaces-->
         <nav>
-            <div class="cabecera_enlaces">
-                <div class="menu">
-                    <a class="enlace_actual" href="./index.html">Inicio</a>
-                </div>
-                <div class="menu">
-                    <a class="enlaces" href="./views/portfolio.html">Galería</a>
-                </div>
-                <div class="menu">
-                    <a class="enlaces" href="./views/presupuesto.html">Presupuesto</a>
-                </div>
-                <div class="menu">
-                    <a class="enlaces" href="./views/contacto.html">Contacto</a>
-                </div>
-            </div>
+            <ul class="cabecera_enlaces">
+                <li class="enlace_container">
+                    <a class="enlace actual" href="./index.html">Inicio</a>
+                </li>
+                <li class="enlace_container">
+                    <a class="enlace" href="./views/portfolio.html">Galería</a>
+                </li>
+                <li class="enlace_container">
+                    <a class="enlace" href="./views/presupuesto.html">Presupuesto</a>
+                </li>
+                <li class="enlace_container">
+                    <a class="enlace" href="./views/contacto.html">Contacto</a>
+                </li>
+            </ul>
         </nav>
     </header>
     <main>
         <section>
             <h2>Me presento</h2>
 
-            <div>
-                <img class="foto1" src="./images/Foto1.jpeg" alt="solcito eventos" height="612" width="600">
-                <p>Mi nombre es Sol. Soy maestra de Educación primaria, monitora infantil y mamá de Timoteo.<br><br>
-                Como mamá, sé que una de las cosas que más nos preocupa al momento de organizar un cumpleaños es que los niños estén entretenidos y realmente la pasen muy bien.<br><br>
-                Por ello, hace varios años decidí brindar momentos inolvidables para los más pequeños en diferentes eventos y con distintas temáticas, para que cada niño tenga su cumpleaños que recordará siempre.<br>
-                ¡Gracias por acompañarme en este proyecto!</p>
+            <div class="presentacion">
+                <img src="./images/Foto1.jpeg" alt="solcito eventos" height="612" width="600">
+                <div class="presentacion_texto">
+                    <p>Hola, soy Sol, maestra de Educación Primaria, monitora infantil y mamá de Timoteo. Como madre, sé
+                        lo importante que es organizar un cumpleaños único y especial para los más pequeños. Uno de los
+                        mayores retos es asegurarnos de que los niños se diviertan y vivan una experiencia que jamás
+                        olvidarán.</p>
+
+                    <p>Es por eso que hace varios años decidí dedicarme a crear momentos mágicos en diferentes tipos de
+                        eventos, con temáticas únicas y actividades diseñadas para que cada niño tenga un cumpleaños
+                        inolvidable. Mi objetivo es brindarles diversión, risas y recuerdos que guardarán en su corazón
+                        para siempre.</p>
+
+                    <p>Gracias por acompañarme en este hermoso proyecto, ¡y por confiar en Solcitos Eventos para hacer
+                        realidad los sueños de los más pequeños!</p>
+                </div>
             </div>
         </section>
 
-        <section>
+        <section class="section_border_top">
             <h2>Formación</h2>
-            <!--  Párrafos-->
-            <h3>Profesora de Educación Inicial</h3>
-                
-            <p>
-                Colegio San José - Muñíz - Buenos Aires
-            </p>
+
+            <p class="titulo_naranja">☼ Profesora de Educación Inicial ☼</p>
+            <p class="contenido">Colegio San José - Muñíz - Buenos Aires</p>
         </section>
 
-        <section>
+        <section class="section_border_top">
             <h2>Experiencias y colaboraciones</h2>
-            
-            <p>Burbujita Eventos - Alicante<br>
-               Aberder College - Bella Vista - Bs. As.<br>
-               Ranitas - José C. Paz - Bs. As.<br>
-               Arco Iris - San Miguel - Bs. As.</p>
+
+            <ul class="contenido">
+                <li>Juanma DJ - Alicante</li>
+                <li>Burbujita Eventos - Alicante</li>
+                <li>Aberder College - Bella Vista - Bs. As.</li>
+                <li>Ranitas - José C. Paz - Bs. As.</li>
+                <li>Arco Iris - San Miguel - Bs. As.</li>
+            </ul>
         </section>
     </main>
     <footer>
-        <div class="redes">
-            <a href="https://www.Instagram.com" target="_blank"><img src="./images/ig_logo_png.png" alt="Instagram" width="70" height="56"></a>
-            <a href="https://www.Facebook.com" target="_blank"><img src="./images/fb_logo.png" alt="Facebook" width="70" height="56"></a>    
+        <div class="footer_contenedor">
+            <div class="footer_contacto">
+                <ul>
+                    <li>
+                        <a href="https://wa.me/34664452641" target="_blank">                        
+                            <img class="iconos" src="./images/iconos/whatsapp.svg" alt="telefono Solcitos Eventos"
+                            width="30" height="30">
+                        </a>
+                        <span class="footer_contacto_span">664452641</span>
+                    </li>
+                    <li>
+                        <a href="mailto:solcitoseventos@gmail.com" target="_blank">
+                            <img class="iconos" src="./images/iconos/email.svg" alt="email Solcitos Eventos" width="30"
+                            height="30">
+                        </a>
+                        <span class="footer_contacto_span">solcitoseventos@gmail.com</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_logo">
+                <img src="./images/solcitos.jpg" alt="solcitos eventos" width="625" height="650">
+                <p>solcitos eventos</p>
+            </div>
+            <div class="footer_redes">
+                <a href="https://www.instagram.com/solcitos.eventos" target="_blank">
+                    <img src="./images/iconos/instagram.svg" alt="Instagram Solcitos Eventos" width="70" height="56">
+                </a>
+                <a href="https://www.Facebook.com" target="_blank">
+                    <img src="./images/iconos/facebook.svg" alt="Facebook" width="70" height="56">
+                </a>
+            </div>
         </div>
-        <div class="texto_footer"><p>SOLCITOS EVENTOS - ALICANTE</p></div>
     </footer>
 </body>
+
 </html>
