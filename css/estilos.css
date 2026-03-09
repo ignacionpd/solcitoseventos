@@ -767,6 +767,11 @@ footer {
         font-size: 36px;
     }
 
+    .iconos, .footer_redes img {
+        width: 33px;
+        height: 33px;
+    }
+
     .titulo_naranja {
         font-size: 24px;
     }
